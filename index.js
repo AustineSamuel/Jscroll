@@ -111,7 +111,9 @@ const $css=`:root{
 }
 body{
   background:rgb(245, 245, 247);
-  padding:10px;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
 }
 nav{
   padding:10px 20px;
@@ -148,6 +150,7 @@ cursor:pointer;
 h3{
   font-weight:bolder;
   border-radius:5px;
+  color:rgb(10,10,255);
 }
 #technology {
 width:50%;
